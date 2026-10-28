@@ -1,5 +1,7 @@
 # SkyCast — Weather Dashboard
 
+**[🌦️ Live Demo](https://sky-cast-weather-dashboard-five.vercel.app)** | **[💻 GitHub Repository](https://github.com/AlkaToppo/SkyCast-Weather-Dashboard)**
+
 A responsive weather dashboard built with **React, Vite, and the OpenWeatherMap API**. SkyCast lets users search for cities, view current weather conditions, explore hourly and five-day forecasts, and check important weather highlights.
 
 ## Features
