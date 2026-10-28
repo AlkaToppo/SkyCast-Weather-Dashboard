@@ -1,0 +1,43 @@
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #f5f8ff;
+  background: #071426;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(56, 111, 170, 0.35),
+      transparent 38%
+    ),
+    radial-gradient(
+      circle at 90% 80%,
+      rgba(68, 100, 130, 0.22),
+      transparent 35%
+    ),
+    #071426;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid #d9f29a;
+  outline-offset: 3px;
+}
